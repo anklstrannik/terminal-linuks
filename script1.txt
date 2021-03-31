@@ -1,0 +1,18 @@
+#! /bin/bash
+pwd
+mkdir papka
+cd papka
+mkdir papka1 papka2 papka3
+cd papka2
+touch 1.txt 2.txt 3.txt 1.json 2.json
+mkdir podpapka1 podpapka2 podpapka3
+ls
+#пропустим шаги 9-11
+cd ..
+cd papka2
+mv 1.txt 2.txt podpapka1/
+cp 1.json 2.json podpapka2/
+find -name 1.txt
+#16-19 пункты опустим
+date
+cd ..
